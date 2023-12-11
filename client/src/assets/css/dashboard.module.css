@@ -1,0 +1,54 @@
+.top div h1 {
+    font-weight: 1200;
+    color: #23a2f6;
+}
+
+.top div button {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    gap: 6px;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+    background-color: aliceblue;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+}
+
+.main div button {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    gap: 6px;
+}
+
+.main div {
+    display: flex;
+}
+
+.data {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+}
+
+.data div h2 {
+    padding-top: 20px;
+    color: #23a2f6;
+}
+
+.data div span {
+    color: gray;
+}
+
+/* div */

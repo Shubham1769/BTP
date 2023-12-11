@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400&display=swap');
+
+button {
+    margin: 0;
+}
+
+.app {
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    height: 100vh;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    background-color: #f8f9fd;
+}
+
+.head {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sub_title {
+    color: #545252;
+}
+
+.login_form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 40px;
+    background-color: white;
+    height: 400px;
+    width: 300px;
+    border-radius: 10px;
+    padding: 2rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+input[type="text"],
+input[type="password"] {
+    height: 25px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+input[type="submit"] {
+    font-size: 15px;
+    background: #23a2f6;
+    border: 1px solid #23a2f6;
+    border-radius: 10px;
+    box-shadow: 0 8px 8px -4px rgb(160, 160, 160);
+    color: #fff;
+    padding: 10px 20px;
+}
+
+input[type="submit"]:hover {
+    background: #8bc8f1;
+}
+
+.button_container {
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+
+.title {
+    font-size: 2rem;
+    font-family: auto;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.main__select {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.select_box {
+    background-color: #fff;
+    border-radius: 8px;
+    border: 2px solid #e9e9e9;
+    width: 100%;
+}
+
+select {
+    /* width: 100px; */
+    padding: 15px 5px;
+}
+
+.input_container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin: 10px;
+}
